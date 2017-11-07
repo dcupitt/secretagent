@@ -11,6 +11,9 @@ html {
 header,
 footer,
 .bannertext,
+.productname,
+.infotop,
+.footer,
 .product h4 {
   background-color: black;
 }
@@ -69,6 +72,67 @@ ul {
 li {
   display: inline-block;
   padding: 0.75rem 0.75rem;
+}
+
+/* Products styling */
+.items {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: auto;
+  border: 4px solid black;
+}
+
+.productimage {
+  height: 13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.productimage img {
+  max-width: 8rem;
+}
+
+.productname {
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+/* Location styling */
+.information {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+.info {
+  width: 35%;
+}
+
+.infotop {
+  padding: 1rem 2rem;
+}
+
+.infobottom {
+  color: black;
+  padding: 0.3rem;
+}
+
+/* Footer styling */
+.footer {
+  height: 5rem;
+  display: flex;
+  align-items: center;
 }
 
 /* Font styling */
